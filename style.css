@@ -1,0 +1,105 @@
+body {
+  font-family: 'Marvel', sans-serif;
+  margin: 4px;
+  background-image: url("background.jpg");
+  border: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+#canvas {
+  background-image: url("Z3_Space.jpeg");
+  height: 700px;
+  width: 900px;
+  background-repeat: no-repeat;
+  border: 10px solid #285b9e;
+  align-items: center flex;
+  display: flex;
+  justify-content: center;
+ 
+}
+.startbutton-box {
+  display: flex;
+  justify-content: center;
+}
+.Start {
+  background-image: url("item.png");
+  background-size: 100%;
+  height: 125px;
+  width: 125px;
+  font-size: 40px;
+  font-family: 'Marvel', sans-serif;
+  text-align: center flex;
+  border-radius: 100%;
+  /* border: 30px solid rgb(5, 1, 17); */
+  padding: 20px;
+  color: rgb(1, 1, 5);
+  /* position: relative; */
+  /* top: -500px; */
+  left: 640px;
+  /* background-color: rgb(6, 2, 8); */
+  /* display: none; */
+  margin-top: -45px;
+}
+
+.button1 {
+  background-image: url("background.jpg");
+  width: 240px;
+  height: 60px;
+  font-family: 'Marvel', sans-serif;
+  text-align: center;
+  border: radius 70px;
+  background-size: cover;
+  margin-top: 5px;
+  margin-left: 30px;
+  display: flex;
+}
+.ui {
+  display: flex;
+  justify-content: space-around;
+}
+/*
+.intro {
+  width: 118px;
+  height: 38px;
+  background: url("startlogo.png") no-repeat center center fixed;
+  position: absolute;
+  align-self: center;
+}
+*/
+.reset {
+  width: 100px;
+  height: 100px;
+  font-family: 'Marvel', sans-serif;
+  position: absolute;
+  align-self: center;
+}
+
+@keyframes play {
+  100% {
+    background-position: -1472px;
+  }
+}
+
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal {
+  padding-top:100px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  font-size: 40px;
+  margin-top: 150px;
+  text-align: center;
+  background-size: cover;
+  background-image: url("item.png");
+  color: rgb(1, 1, 5);
+  position: relative;
+  top: -800px;
+  left: 540px;
+  justify-content: flex-end;
+  display: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <title>Iron Jump</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+
+  <audio class="music" src="./music.wav"></audio>
+
+  <div>
+    <div class="container">
+
+
+      <body style="background-color: cornflowerblue"></body>
+    </div>
+    <div>
+      <button class="button1">
+        <h1>Score:<span id="score"></span></h1> </span></h1>
+        <h1>Level:<span id="level"> </span></h1>
+      </button>
+    </div>
+
+    <div class="startbutton-box">
+    
+      <button class="Start"> 
+        Start
+      </button>
+      
+    </div>
+
+    <div class="ui">
+      <canvas id="canvas" width="450" height="550"></canvas>
+    </div>
+    <div class="modal">
+      GAME OVER
+    </div>
+    <embed src="./music.wav" autostart="true" loop="true" hidden="true" height="0" width="0" />
+  
+  </div>
+
+  <script src="Iron.js"></script>
+</body>
+
+
+
+
+</html>
